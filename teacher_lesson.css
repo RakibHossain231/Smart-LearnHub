@@ -1,0 +1,320 @@
+ .success-msg {
+            background: #dcfce7;
+            color: #166534;
+            padding: 12px 14px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .teacher-page {
+            background: #f5f7fb;
+            min-height: 100vh;
+        }
+
+        .teacher-navbar {
+            width: 100%;
+            background: #ffffff;
+            padding: 14px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .teacher-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .teacher-brand-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .teacher-brand h2 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .teacher-brand p {
+            margin: 0;
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        .teacher-nav-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .teacher-nav-links a {
+            text-decoration: none;
+            color: #374151;
+            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: 10px;
+        }
+
+        .teacher-nav-links a:hover,
+        .teacher-nav-links a.active {
+            background: #eef2ff;
+            color: #4f46e5;
+        }
+
+        .teacher-container {
+            padding: 28px 30px;
+        }
+
+        .teacher-hero {
+            background: linear-gradient(135deg, #3b82f6, #6d28d9);
+            color: white;
+            border-radius: 24px;
+            padding: 32px 30px;
+            margin-bottom: 24px;
+        }
+
+        .teacher-hero h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .teacher-hero p {
+            opacity: 0.92;
+        }
+
+        .teacher-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 22px;
+        }
+
+        .section-box {
+            background: white;
+            border-radius: 22px;
+            padding: 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        }
+
+        .section-box h2 {
+            margin-bottom: 18px;
+            font-size: 24px;
+            color: #111827;
+        }
+
+        .alert {
+            background: #eef2ff;
+            color: #3730a3;
+            padding: 12px 14px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            color: #374151;
+            margin-bottom: 7px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            height: 48px;
+            border: 1px solid #d1d5db;
+            border-radius: 12px;
+            padding: 0 14px;
+            outline: none;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 4px rgba(79,70,229,0.12);
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .submit-btn,
+        .cancel-btn {
+            border: none;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 14px;
+            font-weight: 800;
+            cursor: pointer;
+            text-align: center;
+            flex: 1;
+            font-size: 15px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            color: white;
+        }
+
+        .cancel-btn {
+            background: #e5e7eb;
+            color: #374151;
+        }
+
+
+        .confirm-btn {
+            background: #ef4444;
+            color: white;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .cancel-modal-btn {
+            background: #e5e7eb;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .lesson-table-wrap {
+            overflow-x: auto;
+        }
+
+        .lesson-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .lesson-table th,
+        .lesson-table td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #e5e7eb;
+            text-align: left;
+            font-size: 14px;
+        }
+/* This targets the exact HTML element path to force the color naturally */
+html body .lesson-table-wrap table.lesson-table thead tr th {
+    background: #e6e6fa; /* Lavender background */
+    color: #800080;      /* Purple text color */
+    font-weight: 700;
+}
+
+        .badge {
+            display: inline-block;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4f46e5;
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        .lesson-link {
+            color: #4f46e5;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .empty-text {
+            color: #6b7280;
+        }
+
+        .highlight-box {
+            animation: highlightFade 2s ease;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        @keyframes highlightFade {
+            0% { background: #dcfce7; }
+            100% { background: transparent; }
+        }
+
+        @media (max-width: 900px) {
+            .teacher-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-actions {
+                flex-direction: column;
+            }
+
+            .teacher-container {
+                padding: 18px 14px;
+            }
+        }
