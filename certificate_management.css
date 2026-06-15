@@ -1,0 +1,132 @@
+.top-area {
+    background: linear-gradient(135deg, #3b82f6, #6d28d9);
+    color: white;
+    border-radius: 24px;
+    padding: 34px 30px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.top-area h1 {
+    margin-bottom: 8px;
+    font-size: 34px;
+    color: white;
+}
+
+.top-area p {
+    margin: 0;
+    opacity: 0.92;
+    max-width: 700px;
+    color: white;
+}
+
+
+.certificate-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 34px;
+}
+
+.cert-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 24px 26px;
+}
+
+.cert-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cert-head p {
+    color: #475569;
+    font-size: 15px;
+}
+
+.cert-head i {
+    color: #475569;
+    font-size: 17px;
+}
+
+.cert-card h2 {
+    font-size: 30px;
+    margin: 28px 0 8px;
+    color: #020617;
+}
+
+.cert-card > p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.student-email {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.grade-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    height: 30px;
+    border: 1px solid #e5e7eb;
+    border-radius: 9px;
+    font-size: 13px;
+    background: #fff;
+}
+
+.cert-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 82px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.cert-status.sent {
+    background: #050513;
+    color: #fff;
+}
+
+.cert-status.pending {
+    background: #fff;
+    color: #111827;
+    border: 1px solid #e5e7eb;
+}
+
+.cert-status.generated {
+    background: #eef2ff;
+    color: #4f46e5;
+}
+
+.cert-actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.cert-actions a {
+    text-decoration: none;
+    color: #475569;
+    font-size: 16px;
+}
+
+.cert-actions a:hover {
+    color: #4f46e5;
+}
+
+.stat-icon {
+    font-size: 18px;
+    color: #64748b;
+}
